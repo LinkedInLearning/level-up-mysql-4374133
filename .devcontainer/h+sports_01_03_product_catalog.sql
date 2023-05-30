@@ -32,7 +32,7 @@
 /*!50503 SET character_set_client = utf8mb4 */
 ;
 USE `h+sports`;
-IF NOT EXISTS CREATE TABLE `product_catalog` (`ProdNumber` text, `ProdName` text);
+CREATE TABLE IF NOT EXISTS `product_catalog` (`ProdNumber` text, `ProdName` text);
 /*!40101 SET character_set_client = @saved_cs_client */
 ;
 --
