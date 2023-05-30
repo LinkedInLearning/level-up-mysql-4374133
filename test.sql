@@ -1,1 +1,0 @@
-select * from product_catalog;

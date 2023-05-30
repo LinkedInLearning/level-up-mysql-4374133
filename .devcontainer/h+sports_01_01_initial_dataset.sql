@@ -18,11 +18,11 @@
 --
 -- Table structure for table `transactions`
 --
-CREATE SCHEMA IF NOT EXISTS `h+sports`;
+CREATE DATABASE IF NOT EXISTS `h+sports`;
 USE `h+sports`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
-IF NOT EXISTS CREATE TABLE `transactions` (
+CREATE TABLE IF NOT EXISTS `transactions` (
   `EmpID` int DEFAULT NULL,
   `Employee Name` text,
   `Employee Job Title` text,
