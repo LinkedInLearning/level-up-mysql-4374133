@@ -14,8 +14,7 @@ ORDER BY Quantity DESC;
 DELIMITER //
 CREATE PROCEDURE best_employee (IN MonthToCheck VARCHAR(9), IN YearToCheck INT, OUT BestEmployee TEXT)
 BEGIN
-		SELECT BestEmployeeList.BestEmployee, BestEmployeeList.Quantity
-        INTO BestEmployee
+		SELECT BestEmployeeList.BestEmployee INTO BestEmployee
 		FROM (
 			SELECT employee.EmployeeName AS BestEmployee,
 			SUM(orders.Quantity) AS Quantity
