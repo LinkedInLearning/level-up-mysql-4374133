@@ -1,8 +1,8 @@
-UPDATE transactions SET Price = Replace(Price, '$', '');
-UPDATE transactions SET Discount = Replace(Discount, '%', '');
-UPDATE transactions SET Discount = Discount / 100;
+#UPDATE transactions SET Price = replace(Price, '$', '');
+#UPDATE transactions SET Discount = replace(Discount, '%', '');
+#UPDATE transactions SET Discount = Discount / 100;
 
-INSERT INTO customer
+INSERT INTO customer 
 SELECT DISTINCT CustomerID, CustName, CustState, CustomerType FROM transactions;
 
 INSERT INTO employee 
