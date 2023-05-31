@@ -1,7 +1,6 @@
 # Cancel the three least popular water bottles
-
 UPDATE product
-JOIN (SELECT SUM(orders.Quantity) AS TotalSold, product.ProdName, product.ProdNumber AS ProdNumber
+RIGHT JOIN (SELECT SUM(orders.Quantity) AS TotalSold, product.ProdName, product.ProdNumber AS ProdNumber
 FROM orders
 JOIN product ON product.ProdNumber = orders.ProdNumber
 GROUP BY product.ProdName, ProdNumber
