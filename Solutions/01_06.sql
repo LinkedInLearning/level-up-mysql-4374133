@@ -1,6 +1,7 @@
 CREATE TABLE employee (
   EmpID INT NOT NULL,
   EmployeeName VARCHAR(100) NOT NULL,
+  EmployeeJobTitle TEXT NOT NULL,
   SalesRegion VARCHAR(50) NOT NULL,
   PRIMARY KEY (EmpID));
 
@@ -11,7 +12,6 @@ CREATE TABLE customer (
   CustomerType VARCHAR(45) NOT NULL,
   PRIMARY KEY (CustomerID));
 
-# Why is price decimal and not varchar? So we can do math!
 CREATE TABLE product (
   ProdNumber VARCHAR(6) NOT NULL,
   ProdName VARCHAR(100) NOT NULL,
@@ -19,7 +19,6 @@ CREATE TABLE product (
   ProductActive VARCHAR(3) NOT NULL,
   PRIMARY KEY (ProdNumber));
 
-# Discount will not support the % sign!
 CREATE TABLE orders (
   OrderNum INT NOT NULL,
   OrderDate TEXT NOT NULL,
