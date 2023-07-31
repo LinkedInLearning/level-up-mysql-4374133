@@ -1,36 +1,20 @@
-# COURSENAME
-This is the repository for the LinkedIn Learning course `course-name`. The full course is available from [LinkedIn Learning][lil-course-url].
+# Level Up: MySQL
+This is the repository for the LinkedIn Learning course Level Up: MySQL. The full course is available from [LinkedIn Learning][lil-course-url].
 
-![course-name-alt-text][lil-thumbnail-url] 
+![Level Up: MySQL][lil-thumbnail-url] 
 
-_See the readme file in the main branch for updated instructions and information._
-## Instructions
-This repository has branches for each of the videos in the course. You can use the branch pop up menu in github to switch to a specific branch and take a look at the course at that stage, or you can add `/tree/BRANCH_NAME` to the URL to go to the branch you want to access.
-
-## Branches
-The branches are structured to correspond to the videos in the course. The naming convention is `CHAPTER#_MOVIE#`. As an example, the branch named `02_03` corresponds to the second chapter and the third video in that chapter. 
-Some branches will have a beginning and an end state. These are marked with the letters `b` for "beginning" and `e` for "end". The `b` branch contains the code as it is at the beginning of the movie. The `e` branch contains the code as it is at the end of the movie. The `main` branch holds the final state of the code when in the course.
-
-When switching from one exercise files branch to the next after making changes to the files, you may get a message like this:
-
-    error: Your local changes to the following files would be overwritten by checkout:        [files]
-    Please commit your changes or stash them before you switch branches.
-    Aborting
-
-To resolve this issue:
-	
-    Add changes to git using this command: git add .
-	Commit changes using this command: git commit -m "some message"
-
-## Installing
-1. To use these exercise files, you must have the following installed:
-	- [list of requirements for course]
-2. Clone this repository into your local machine using the terminal (Mac), CMD (Windows), or a GUI tool like SourceTree.
-3. [Course-specific instructions]
+MySQL is one of the most common databases in the world and there’s a lot of value in gaining experience with it. Join instructor Brad Wheeler in this course for a series of challenges, framed in real-life scenarios, that will test your MySQL skill and show you some new tricks. In the first half of the course, Brad presents a messy, incomplete database that you’ll have to turn into orderly, usable data. In the second half, you’ll use the newly-reorganized database to learn about a fictional company’s employees and customers—with the challenges getting more involved as you go. Try the challenges, compare your solution to Brad’s answers, and gain confidence in thinking through and solving database problems using realMySQL tools.
 
 
-[0]: # (Replace these placeholder URLs with actual course URLs)
+### Instructor
 
-[lil-course-url]: https://www.linkedin.com/learning/
-[lil-thumbnail-url]: http://
+Brad Wheeler 
+                            
+Engineer
 
+                            
+
+Check out my other courses on [LinkedIn Learning](https://www.linkedin.com/learning/instructors/brad-wheeler).
+
+[lil-course-url]: https://www.linkedin.com/learning/level-up-mysql?dApp=59033956&leis=LAA
+[lil-thumbnail-url]: https://media.licdn.com/dms/image/D560DAQHUMq18_9Qvjw/learning-public-crop_675_1200/0/1690487358139?e=2147483647&v=beta&t=yWdWRxIMBG_04rpbe7-YPtiZv_CUQeQ4ZHlAQp1U7OQ
